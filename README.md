@@ -86,7 +86,7 @@ Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
 - Source repository: https://github.com/NikhilRaikwar/folio-workspace
 - Live deployment: https://folio.nikhilraikwar.me (public; no platform login required).
-- Walkthrough: candidate recording required; its final URL belongs in `WALKTHROUGH_URL.txt`.
+- Walkthrough: https://youtu.be/EOffB_BzrxY
 - Architecture: `ARCHITECTURE.md`
 - AI workflow: `AI_WORKFLOW.md`
 - Exact deliverables/status: `SUBMISSION.md`

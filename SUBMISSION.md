@@ -7,9 +7,9 @@ Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 - Live application: https://folio.nikhilraikwar.me
 - Source: https://github.com/NikhilRaikwar/folio-workspace
 - Google Drive folder: **PENDING — add the shared submission folder URL**
-- Walkthrough: **PENDING — record/upload the required 3–5 minute video**
+- Walkthrough: https://youtu.be/EOffB_BzrxY
 
-The app and source are published. The video and shared Drive folder still need final links.
+The app, source, and walkthrough are published. Only the shared Google Drive folder link remains to be added.
 
 ## Included
 
@@ -21,7 +21,7 @@ The app and source are published. The video and shared Drive folder still need f
 - `AI_WORKFLOW.md`: actual AI contributions, rejected directions, corrections, and verification.
 - `LICENSE`: MIT, copyright Nikhil Raikwar.
 - `LIVE_URL.txt`: public application URL.
-- `WALKTHROUGH_URL.txt`: place the final public/unlisted video URL here.
+- `WALKTHROUGH_URL.txt`: published walkthrough video URL.
 
 Source archives are delivery artifacts for the Drive folder, not files tracked in GitHub. Screenshots will be supplied by the candidate separately. Personal preparation scripts, checklists, generated screenshots, credentials, dependencies, and runtime state are excluded from the repository.
 
@@ -37,4 +37,4 @@ Creation, rename, rich text, autosave, persistent storage, reopen, text/Markdown
 
 ## Limitations and next steps
 
-Real authentication, realtime merging, comments, revision history, email invitations, DOCX/PDF support, offline queue, and backup restore are intentionally omitted. Next 2–4 hours: real sessions, browser regression tests, and revision recovery. The final video and Drive upload are pending candidate completion.
+Real authentication, realtime merging, comments, revision history, email invitations, DOCX/PDF support, offline queue, and backup restore are intentionally omitted. Next 2–4 hours: real sessions, browser regression tests, and revision recovery. The Google Drive upload and folder link remain pending candidate completion.
