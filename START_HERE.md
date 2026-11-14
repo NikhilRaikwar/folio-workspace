@@ -1,46 +1,61 @@
-# Nikhil's remaining submission steps
+# Nikhil's final submission steps
 
-1. Inspect the local Folio preview and run the README review flow. Core desktop browser flows have been verified; personally review them and report any UI issue before publication.
-2. Decide when to lift the earlier no-commit/no-push restriction. Sites requires a source commit/push before publishing; GitHub publication is a separate action.
-3. Configure the intended reviewer audience. Sites starts private; a private owner-only link is not a completed reviewer-accessible deliverable. Verify the final public/reviewer URL in incognito after publishing.
-4. Confirm the actual hosted create/edit/import/share/persistence flows. Update `VERIFICATION.md`, `LIVE_URL.txt`, and `SUBMISSION.md` with real results/links.
-5. Record a 3–5 minute screen/voice walkthrough using `WALKTHROUGH_SCRIPT.md`. Add its accessible URL to `WALKTHROUGH_URL.txt` and `SUBMISSION.md`.
-6. Put the source ZIP and notes in one Google Drive folder. Add screenshots of this Folio app if useful. Never include `.env`, secrets, node_modules, unrelated archived projects, or local runtime state.
-7. Set the folder to Anyone with the link — Viewer, check it in incognito, and put its URL in the final submission. Review the AI workflow note and explain your actual decisions honestly.
+The app is deployed, GitHub source is pushed, and the public end-to-end API checks pass.
 
-## Portal Markdown template
+- Live app: https://folio-team-writing-room.festivecinch16.chatgpt.site
+- GitHub: https://github.com/NikhilRaikwar/folio-workspace
+- Demo accounts: Nikhil Raikwar, Maya Iyer, Aarav Shah. No passwords.
 
-Replace every placeholder only after that deliverable exists:
+## 1. Record your walkthrough
+
+Use WALKTHROUGH_SCRIPT.md and the deployed app. Record 3–5 minutes in your own voice: create/format/save/refresh, Markdown import, viewer/editor sharing, architecture, scope cuts, and honest AI usage. Demonstrate Markdown export and roles as the optional enhancements if time permits.
+
+Upload the video with public or unlisted access. Test its link in incognito. Paste it into WALKTHROUGH_URL.txt and SUBMISSION.md, then into the portal's separate required video field.
+
+## 2. Upload one Google Drive folder
+
+Upload this submission package: source-code.zip, README.md, ARCHITECTURE.md, AI_WORKFLOW.md, SUBMISSION.md, DEPLOYMENT.md, VERIFICATION.md, REQUIREMENTS.md, LICENSE, LIVE_URL.txt, WALKTHROUGH_URL.txt, WALKTHROUGH_SCRIPT.md, START_HERE.md, and screenshots/.
+
+Never upload the real .env, database token, node_modules, runtime state, or unrelated archived projects. The source ZIP was checked for excluded paths and actual database-credential values.
+
+Set the folder to Anyone with the link — Viewer. Add its URL to SUBMISSION.md and verify the folder from an incognito session.
+
+## 3. Paste this in the portal
+
+Replace the two remaining placeholders with real links:
 
 ```markdown
 # Folio — Collaborative Document Workspace
 Candidate: Nikhil Raikwar
 
 - Submission folder: [Google Drive](DRIVE_FOLDER_URL)
-- Live application: [Open Folio](LIVE_APPLICATION_URL)
-- Walkthrough: [Watch the demo](VIDEO_URL)
+- Live app: [Open Folio](https://folio-team-writing-room.festivecinch16.chatgpt.site)
+- Walkthrough: [Watch demo](VIDEO_URL)
 - Source: [GitHub](https://github.com/NikhilRaikwar/folio-workspace)
 
 ## Reviewer access
-No password. Use the labeled demo account switcher for Nikhil Raikwar,
+No password. Use the demo account menu to switch between Nikhil Raikwar,
 Maya Iyer, and Aarav Shah. Authentication is simulated for this assessment.
 
 ## Suggested review
-Create and format a document as Nikhil. Wait for “All changes saved,”
-refresh, and reopen. Import a .txt or .md file (200 KB maximum).
-Share with Maya as viewer, switch accounts, and open Shared with me.
-Change Maya to editor as Nikhil, then verify editing and access revocation.
+As Nikhil, create, rename, format, save, refresh, and reopen a document.
+Import a .txt or .md file (200 KB maximum). Share with Maya as viewer,
+switch accounts, and open Shared with me. Change Maya to editor as Nikhil
+and verify editing. Only owners can share, revoke, and delete.
 
-## Included
-Source code, local setup, architecture note, AI workflow note,
-ten passing automated tests, verification record, and video URL.
+## Included and verified
+Source, setup instructions, architecture note, AI workflow note,
+ten passing automated tests, type-check, production build, screenshots,
+and public deployment verification are included.
 
-## Scope and limits
-Creation, rename, rich-text editing, autosave, structured persistence,
-import, owner/editor/viewer sharing, and stale-write protection are included.
-Real authentication, realtime merge, comments, history, and DOCX support
-were intentionally omitted. Next: real sessions, browser regression tests,
-and revision recovery.
+## Optional enhancements
+Owner/editor/viewer sharing roles and Markdown export are implemented.
+Stale-write protection prevents silent overwrites of newer revisions.
+
+## Deliberate limitations and next steps
+Real authentication, realtime merging, comments, revision history,
+and DOCX support are intentionally omitted. Next priorities:
+real sessions, browser regression tests, and revision recovery.
 ```
 
-Paste the video URL separately into the portal's required Video Submission Link field. Do not describe pending checks as completed or submit placeholder URLs.
+Do not submit placeholder video/Drive links. Personally review the app and notes so your walkthrough explains decisions you understand. Do not claim every line was manually authored or every possible browser scenario was tested.

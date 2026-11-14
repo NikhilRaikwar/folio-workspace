@@ -11,9 +11,9 @@ Sites hosts a Cloudflare Worker built from the included Vinext starter. Turso st
 3. Run `npm run db:setup` to create/seed the empty database once.
 4. Run `npm test`, `npm run typecheck`, and the Sites build helper (or `npm run build` for a standalone build).
 5. Configure the same two values through Sites production runtime environment settings. Local `.env` is not a production-secret deployment mechanism. Never put either value in a public prefix, source file, or hosting manifest.
-6. Follow the Sites source synchronization, packaging, save-version, and deployment workflow. That workflow **creates/pushes a source commit**. It must wait while the candidate's no-commit/no-push instruction is in effect.
+6. Follow the Sites source synchronization, packaging, save-version, and deployment workflow. That workflow **creates/pushes a source commit**. The candidate authorized source synchronization and public publication; the initial deployment is complete.
 
-GitHub and Sites source hosting are distinct destinations. GitHub URL: https://github.com/NikhilRaikwar/folio-workspace. No GitHub push or Sites source push is authorized by merely creating this document. The packaged source is reviewable independently.
+GitHub and Sites source hosting are distinct destinations. GitHub URL: https://github.com/NikhilRaikwar/folio-workspace. Both the Sites source and GitHub main branch have been pushed under the candidate's explicit authorization. The packaged source is also reviewable independently.
 
 ## Reviewer access
 
@@ -39,4 +39,10 @@ The app itself offers demo identities with no password. A public demo lets visit
 - **Workspace connection error:** check database availability/token permissions and production logs; never paste tokens into public debugging messages.
 - **Tables missing:** run the explicit setup script against the intended database. Do not add DDL to each request as a workaround.
 - **Stale revision:** download the local draft and load the current version. This is intentional concurrency protection.
-- **No-commit restriction:** local checks/builds and the source ZIP can be completed, but publication must wait for the candidate to permit source synchronization.
+- **Publishing from a new checkout:** preserve the correct Site identity, use fresh source credentials, push the exact source state, and package that same state before saving/deploying.
+
+## Published application
+
+https://folio-team-writing-room.festivecinch16.chatgpt.site
+
+Public access and an anonymous end-to-end API smoke check passed. Runtime database URL and token are configured as secrets. The reviewer can use the app without a platform login; demo identities remain simulated and writable as documented.

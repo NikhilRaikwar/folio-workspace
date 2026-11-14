@@ -19,7 +19,7 @@ Candidate: Nikhil Raikwar · Product: Folio
 | Setup/run instructions | README, .env.example, explicit db:setup, package lockfile |
 | Architecture note | ARCHITECTURE.md |
 | AI workflow note | AI_WORKFLOW.md records actual contributions, rejected UI direction, corrections, and verification |
-| Working reviewer deployment | Pending permission for required source commit/push and public reviewer access; local app works |
+| Working reviewer deployment | Published at the live URL in LIVE_URL.txt; anonymous page/API and complete permission/persistence smoke tests passed |
 | Walkthrough video | Script ready; candidate's 3–5 minute recording/upload pending |
 | Drive folder | Source ZIP and notes ready locally; candidate's upload/sharing pending |
 
@@ -34,7 +34,7 @@ Stale-write protection, a document outline, and word count add bounded reliabili
 
 ## Final submission is complete only after
 
-- The actual live URL is published and tested for reviewer access.
+- Completed: live URL published and tested without login/cookies.
 - The candidate records/uploads a public or unlisted video and replaces its placeholder.
 - The final source package and notes are uploaded to one accessible Google Drive folder.
 - SUBMISSION.md and portal links reference those real deliverables.

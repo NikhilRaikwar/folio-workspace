@@ -31,7 +31,7 @@ The temporary browser verification draft and its share were removed. The sample 
 
 ## Remaining delivery checks
 
-Hosted publication and an incognito reviewer-access test remain pending because the candidate previously prohibited commits/pushes. Sites requires source synchronization. GitHub has not been pushed. The final video and Drive folder are also pending human completion.
+Hosted publication is complete. Anonymous requests without cookies or a platform login successfully accessed the public page and users API. GitHub main has been pushed. A dedicated incognito browser/cross-browser review remains useful, while the final video and Drive folder still require human completion.
 
 ## Environmental issues resolved
 
@@ -42,3 +42,13 @@ The sandbox could not resolve npm hosts or use local Worker sockets. Dependency 
 Ten tests now pass, including explicit 403 for unshared document requests, viewer write denial, blank-title defaulting, and duplicate invitation/self-share/unknown-user validation. TypeScript passed after the compact dashboard and owner-only Share button changes. Final production build and hosted/browser checks are recorded separately; no browser verification is inferred from unit tests.
 
 Production Sites runtime variables TURSO_DATABASE_URL and TURSO_AUTH_TOKEN have been configured as secrets. Their presence is not a hosted-deployment verification; source publication is still pending.
+
+## Public deployment verification — 15 November 2026 (Asia/Kolkata)
+
+Live URL: https://folio-team-writing-room.festivecinch16.chatgpt.site
+
+Sites reported deployment succeeded with runtime environment revision 1. The published page returned HTTP 200 without cookies/login, and the users API returned all three seeded accounts. End-to-end requests against the public URL passed create, rename, required rich-text formatting persistence, unshared access 403, viewer save 403, duplicate invitation 409, upgrade to editor, editor save, stale revision 409, and revoke access. The temporary live verification draft was removed afterward. Source was pushed to NikhilRaikwar/folio-workspace main. The actual .env is ignored and untracked; only .env.example is committed.
+
+Public Markdown import also passed on 15 November: supported headings/lists were preserved, and unsupported .docx input returned 400. The temporary imported verification document was removed afterward.
+
+The production URL also loaded successfully in Chrome, rendered the account switcher and seeded documents, and was captured in screenshots/live.jpg. This browser capture is separate from the anonymous no-cookie HTTP verification; an exhaustive incognito/cross-browser suite is not claimed.

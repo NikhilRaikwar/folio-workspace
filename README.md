@@ -85,7 +85,7 @@ With another 2–4 hours: add real authentication, browser end-to-end regression
 Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
 - Source repository: https://github.com/NikhilRaikwar/folio-workspace
-- Live deployment: pending authorized publication; see `LIVE_URL.txt`.
+- Live deployment: https://folio-team-writing-room.festivecinch16.chatgpt.site (public; no platform login required).
 - Walkthrough: candidate recording required; see `WALKTHROUGH_SCRIPT.md`.
 - Architecture: `ARCHITECTURE.md`
 - AI workflow: `AI_WORKFLOW.md`
