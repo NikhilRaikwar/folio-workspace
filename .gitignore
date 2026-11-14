@@ -44,3 +44,14 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Submission archives and personal preparation stay local.
+*.zip
+*.tar.gz
+/local-notes/
+/screenshots/
+/WALKTHROUGH_SCRIPT.md
+/START_HERE.md
+/REQUIREMENTS.md
+/VERIFICATION.md
+/DEPLOYMENT.md

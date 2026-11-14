@@ -68,7 +68,7 @@ npm run db:setup         # Explicit initial remote schema/seed setup
 
 The tests use Node's built-in experimental SQLite module; Node 22 prints an informational experimental warning. Tests use independent local test databases, not production credentials or the remote workspace.
 
-For Sites packaging, use the documented Sites build helper and publication workflow. A raw local `npm start` is a preview, not a hosted deployment. Hosted runtime credentials must be configured separately from `.env`. See `DEPLOYMENT.md`.
+For Sites packaging, use the documented Sites build helper and publication workflow. A raw local `npm start` is a preview, not a hosted deployment. Hosted runtime credentials must be configured separately from `.env` through Sites settings. The `.openai/hosting.json` file identifies the Site; `scripts/vite/sites-vite-plugin.ts` packages the Worker build.
 
 ## Architecture and boundaries
 
@@ -85,13 +85,27 @@ With another 2–4 hours: add real authentication, browser end-to-end regression
 Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
 - Source repository: https://github.com/NikhilRaikwar/folio-workspace
-- Live deployment: https://folio-team-writing-room.festivecinch16.chatgpt.site (public; no platform login required).
-- Walkthrough: candidate recording required; see `WALKTHROUGH_SCRIPT.md`.
+- Live deployment: https://folio.nikhilraikwar.me (public; no platform login required).
+- Walkthrough: candidate recording required; its final URL belongs in `WALKTHROUGH_URL.txt`.
 - Architecture: `ARCHITECTURE.md`
 - AI workflow: `AI_WORKFLOW.md`
-- Actual validation: `VERIFICATION.md`
 - Exact deliverables/status: `SUBMISSION.md`
-- Requirement/optional-feature coverage: `REQUIREMENTS.md`
-- App-only captures: `screenshots/`
 
 MIT License. Copyright (c) 2026 Nikhil Raikwar.
+
+## Verification
+
+Ten isolated service/SQLite tests, TypeScript checking, and the production Worker build pass. Core browser flows were checked locally: typing, required formatting, autosave, refresh persistence, demo account switching, view-only controls, file import, and export download. Public no-cookie API checks passed create/edit/persist/import and permission enforcement on the deployed app. Exhaustive mobile/cross-browser and offline testing are not claimed.
+
+## Source layout
+
+- `app/`: interface and API route shell.
+- `lib/folio/`: content validation, database adapter, schema, seeds, and API service.
+- `worker/`: Cloudflare Worker entrypoint.
+- `scripts/`: database setup and required build/runtime integration only.
+- `tests/`: isolated integration tests.
+- `samples/`: text and Markdown examples for reviewers.
+- `public/`: favicon.
+- `.openai/`: Sites deployment identity.
+
+Walkthrough preparation notes and generated screenshots are kept outside the repository. The candidate will provide final screenshots separately. No source ZIP is tracked in GitHub.

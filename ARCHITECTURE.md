@@ -42,4 +42,4 @@ Depth in persistence, permissions, safe imports, and save reliability mattered m
 
 ## Validation
 
-Ten isolated integration tests exercise real SQLite plus the production service handlers. TypeScript and Worker production builds are separate checks. A smoke test through the local Worker and actual Turso database checks the deployed-runtime code path. `VERIFICATION.md` separates these passing checks from visual/browser and hosted checks that have not been completed.
+Ten isolated integration tests exercise real SQLite plus the production service handlers. TypeScript and Worker production builds are separate checks. A smoke test through the local Worker and actual Turso database checks the deployed-runtime code path. The README summarizes completed verification and its remaining limits. Personal checklists and recording preparation are kept locally rather than in the repository.

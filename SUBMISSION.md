@@ -2,44 +2,39 @@
 
 Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
-## Final links — complete before submitting
+## Links
 
-- Google Drive folder: **PENDING — add shared folder URL**
-- Live application: https://folio-team-writing-room.festivecinch16.chatgpt.site
-- Walkthrough: **PENDING — record/upload 3–5 minute video**
-- Source repository: https://github.com/NikhilRaikwar/folio-workspace (main branch pushed)
+- Live application: https://folio.nikhilraikwar.me
+- Source: https://github.com/NikhilRaikwar/folio-workspace
+- Google Drive folder: **PENDING — add the shared submission folder URL**
+- Walkthrough: **PENDING — record/upload the required 3–5 minute video**
 
-The live application and GitHub source are published. The video and shared Drive folder remain outstanding deliverables.
+The app and source are published. The video and shared Drive folder still need final links.
 
 ## Included
 
-- `source-code.zip`: Folio source, dependency lockfile, setup/build configuration, schema/seed scripts, two sample imports, and ten automated tests. No `.env`, token, dependency cache, runtime state, unrelated project files, or credentials.
-- `README.md`: installation/run instructions, demo accounts, supported files, review flow, limits.
-- `ARCHITECTURE.md`: system boundaries, schema, permissions, content validation, save semantics, tradeoffs.
-- `AI_WORKFLOW.md`: actual AI contributions, revisions, checks, and verification limits.
-- `DEPLOYMENT.md`: runtime-secret setup, source publication requirements, hosted checklist.
-- `VERIFICATION.md`: actual local test/build/runtime results and remaining browser/hosted checks.
+- Application source, dependency lockfile, framework/Worker configuration, server-only environment template.
+- Explicit database schema/seed setup and two sample import files.
+- Ten automated integration tests.
+- `README.md`: setup/run instructions, demo accounts, review flow, limits, and validation summary.
+- `ARCHITECTURE.md`: system boundaries, schema, permissions, save behavior, and tradeoffs.
+- `AI_WORKFLOW.md`: actual AI contributions, rejected directions, corrections, and verification.
 - `LICENSE`: MIT, copyright Nikhil Raikwar.
-- `REQUIREMENTS.md`: criterion-by-criterion implementation evidence, optional enhancements, and remaining delivery steps.
-- `LIVE_URL.txt`: verified public application URL.
-- `WALKTHROUGH_URL.txt`: pending candidate recording/upload.
-- `WALKTHROUGH_SCRIPT.md`: recording plan.
-- `START_HERE.md`: remaining submission steps and portal Markdown template.
+- `LIVE_URL.txt`: public application URL.
+- `WALKTHROUGH_URL.txt`: place the final public/unlisted video URL here.
 
-- `screenshots/`: verified app-only workspace, editor, viewer, Markdown import, and live-deployment captures. No unrelated project images are included.
+Source archives are delivery artifacts for the Drive folder, not files tracked in GitHub. Screenshots will be supplied by the candidate separately. Personal preparation scripts, checklists, generated screenshots, credentials, dependencies, and runtime state are excluded from the repository.
 
 ## Reviewer access
 
-Use the demo account menu for Nikhil Raikwar, Maya Iyer, or Aarav Shah. No password. These are explicitly simulated identities. Start as Nikhil, create/import a document, share it with Maya, then switch accounts and open Shared with me.
+No password. Switch demo accounts between Nikhil Raikwar, Maya Iyer, and Aarav Shah. Authentication is explicitly simulated; use synthetic content only.
 
-## Implemented
+As Nikhil, create/rename/format a document, wait for All changes saved, refresh, and reopen. Import a .txt or .md file (200 KB maximum). Share with Maya as viewer, switch accounts, and inspect Shared with me. Change Maya to editor as Nikhil and verify editing and revocation. Only owners can share or delete.
 
-Create, rename, rich-text editing, structured persistence, autosave/error states, reopen, text/Markdown import, owned/shared discovery, server-side owner/editor/viewer permissions, revocation, stale-save protection, Markdown export, and JSON draft backup. Search, sorting, grid/list views, outline, and word count support usability.
+## Working scope
 
-## Incomplete / deliberately omitted
+Creation, rename, rich text, autosave, persistent storage, reopen, text/Markdown import, owned/shared discovery, owner/editor/viewer permissions, revocation, and stale-save protection. Optional enhancements: role-based sharing and Markdown export. Search, sorting, outline, and word count support usability.
 
-Real authentication, realtime collaboration/merge, comments, history, email invitations, DOCX/PDF import/export, offline queue, and backup-restore UI. Core desktop browser interactions were verified locally. Hosted publication and anonymous public API verification are complete. The final video and Drive upload remain pending.
+## Limitations and next steps
 
-## Next 2–4 hours
-
-Prioritize real session authentication and browser end-to-end regression tests, then add revision recovery/history. Consider realtime collaboration after those foundations are reliable.
+Real authentication, realtime merging, comments, revision history, email invitations, DOCX/PDF support, offline queue, and backup restore are intentionally omitted. Next 2–4 hours: real sessions, browser regression tests, and revision recovery. The final video and Drive upload are pending candidate completion.
