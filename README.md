@@ -108,4 +108,13 @@ Ten isolated service/SQLite tests, TypeScript checking, and the production Worke
 - `public/`: favicon.
 - `.openai/`: Sites deployment identity.
 
-Walkthrough preparation notes and generated screenshots are kept outside the repository. The candidate will provide final screenshots separately. No source ZIP is tracked in GitHub.
+## Screenshots
+
+Candidate-provided screenshots of the working application:
+
+- [Dashboard: owned and shared documents](screenshots/01-dashboard.png)
+- [Editor: headings, formatting, and lists](screenshots/02-editor.png)
+- [Sharing: teammate access and permissions](screenshots/03-sharing.png)
+- [Viewer: read-only document access](screenshots/04-viewer.png)
+
+Walkthrough preparation notes and generated screenshots are kept outside the repository. No source ZIP is tracked in GitHub.

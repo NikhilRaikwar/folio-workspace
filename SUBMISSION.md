@@ -22,8 +22,9 @@ The app, source, and walkthrough are published. Only the shared Google Drive fol
 - `LICENSE`: MIT, copyright Nikhil Raikwar.
 - `LIVE_URL.txt`: public application URL.
 - `WALKTHROUGH_URL.txt`: published walkthrough video URL.
+- `screenshots/`: four candidate-provided application screenshots: `01-dashboard.png`, `02-editor.png`, `03-sharing.png`, and `04-viewer.png`.
 
-Source archives are delivery artifacts for the Drive folder, not files tracked in GitHub. Screenshots will be supplied by the candidate separately. Personal preparation scripts, checklists, generated screenshots, credentials, dependencies, and runtime state are excluded from the repository.
+Source archives are delivery artifacts for the Drive folder, not files tracked in GitHub. The four candidate-provided screenshots are included in both the repository and Drive delivery materials. Personal preparation scripts, checklists, AI-generated screenshots, credentials, dependencies, and runtime state are excluded from the repository.
 
 ## Reviewer access
 

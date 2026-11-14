@@ -49,7 +49,11 @@ yarn-error.log*
 *.zip
 *.tar.gz
 /local-notes/
-/screenshots/
+/screenshots/*
+!/screenshots/01-dashboard.png
+!/screenshots/02-editor.png
+!/screenshots/03-sharing.png
+!/screenshots/04-viewer.png
 /WALKTHROUGH_SCRIPT.md
 /START_HERE.md
 /REQUIREMENTS.md
