@@ -6,6 +6,7 @@ export default function Dialog({title,kicker='FOLIO WORKSPACE',description,onClo
  useEffect(()=>{
   const previous=document.activeElement as HTMLElement|null;const el=ref.current;el?.focus();
   const key=(e:KeyboardEvent)=>{
+   if(e.defaultPrevented)return;
    if(e.key==='Escape')close.current();
    if(e.key==='Tab'){
     const focusable=Array.from(el?.querySelectorAll<HTMLElement>('button:not(:disabled),input:not(:disabled),select:not(:disabled),a[href],[tabindex="0"]')||[]).filter(n=>n.getClientRects().length>0);
