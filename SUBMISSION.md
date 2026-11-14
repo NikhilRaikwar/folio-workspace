@@ -6,10 +6,10 @@ Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
 - Live application: https://folio.nikhilraikwar.me
 - Source: https://github.com/NikhilRaikwar/folio-workspace
-- Google Drive folder: **PENDING — add the shared submission folder URL**
+- Google Drive folder: https://drive.google.com/drive/folders/1PZ-Lq2YcavQvQYuF_J_sXKiPDAU6zQJp?usp=sharing
 - Walkthrough: https://youtu.be/EOffB_BzrxY
 
-The app, source, and walkthrough are published. Only the shared Google Drive folder link remains to be added.
+The app, source, walkthrough, and Google Drive submission folder are published.
 
 ## Included
 
@@ -38,4 +38,4 @@ Creation, rename, rich text, autosave, persistent storage, reopen, text/Markdown
 
 ## Limitations and next steps
 
-Real authentication, realtime merging, comments, revision history, email invitations, DOCX/PDF support, offline queue, and backup restore are intentionally omitted. Next 2–4 hours: real sessions, browser regression tests, and revision recovery. The Google Drive upload and folder link remain pending candidate completion.
+Real authentication, realtime merging, comments, revision history, email invitations, DOCX/PDF support, offline queue, and backup restore are intentionally omitted. Next 2–4 hours: real sessions, browser regression tests, and revision recovery.

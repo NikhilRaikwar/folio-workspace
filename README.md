@@ -85,6 +85,7 @@ With another 2–4 hours: add real authentication, browser end-to-end regression
 Candidate: **Nikhil Raikwar** · raikwarnikhil80@gmail.com
 
 - Source repository: https://github.com/NikhilRaikwar/folio-workspace
+- Submission folder: https://drive.google.com/drive/folders/1PZ-Lq2YcavQvQYuF_J_sXKiPDAU6zQJp?usp=sharing
 - Live deployment: https://folio.nikhilraikwar.me (public; no platform login required).
 - Walkthrough: https://youtu.be/EOffB_BzrxY
 - Architecture: `ARCHITECTURE.md`
